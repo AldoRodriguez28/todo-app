@@ -6,13 +6,13 @@ Una aplicación moderna para gestionar tareas de manera eficiente y optimizada c
 
 🎯 Características Principales
 
-✅ Redux Toolkit: Manejo eficiente del estado global de las tareas.  
-✅ Modo Oscuro (Dark Mode): Persistencia automática del tema utilizando next-themes.  
-✅ Performance: Implementado correctamente useMemo y useCallback para evitar el re-rederizado y calculos innecesarios.  
-✅ Framer Motion: Animaciones fluidas para una mejor experiencia de usuario.  
-✅ Next.js & React: Arquitectura modular optimizada para SSR y CSR.  
-✅ Persistencia de Datos: Almacena las tareas en localStorage para evitar la pérdida de información.  
-✅ Optimización con useMemo y useCallback: Evita renders innecesarios y mejora el rendimiento.  
+✅ Redux Toolkit: Manejo eficiente del estado global de las tareas.  <br>
+✅ Modo Oscuro (Dark Mode): Persistencia automática del tema utilizando next-themes.   <br>
+✅ Performance: Implementado correctamente useMemo y useCallback para evitar el re-rederizado y calculos innecesarios.   <br>
+✅ Framer Motion: Animaciones fluidas para una mejor experiencia de usuario.   <br>
+✅ Next.js & React: Arquitectura modular optimizada para SSR y CSR.   <br>
+✅ Persistencia de Datos: Almacena las tareas en localStorage para evitar la pérdida de información.   <br>
+✅ Optimización con useMemo y useCallback: Evita renders innecesarios y mejora el rendimiento.   <br>
 
 🛠️ Tecnologías Utilizadas
 
