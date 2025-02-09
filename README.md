@@ -2,31 +2,19 @@
 
 🚀 Descripción
 
-Esta aplicación es una solución moderna de gestión de tareas, desarrollada con Next.js, React, y Redux Toolkit, ofreciendo una experiencia fluida, interactiva y eficiente. Permite a los usuarios agregar, actualizar, eliminar y reordenar tareas con persistencia en localStorage y soporte para modo oscuro.
+Una aplicación moderna para gestionar tareas de manera eficiente y optimizada con tecnologías de última generación.
 
 🎯 Características Principales
 
 ✅ Redux Toolkit: Manejo eficiente del estado global de las tareas.
 ✅ Modo Oscuro (Dark Mode): Persistencia automática del tema utilizando next-themes.
-✅ Drag & Drop: Implementado con framer-motion para reordenar tareas de manera intuitiva.
+✅ Performance: Implementado correctamente useMemo y useCallback para evitar el re-rederizado y calculos innecesarios
 ✅ Framer Motion: Animaciones fluidas para una mejor experiencia de usuario.
 ✅ Next.js & React: Arquitectura modular optimizada para SSR y CSR.
 ✅ Persistencia de Datos: Almacena las tareas en localStorage para evitar la pérdida de información.
 ✅ Optimización con useMemo y useCallback: Evita renders innecesarios y mejora el rendimiento.
 
 🛠️ Tecnologías Utilizadas
-
-Next.js 14
-
-React 18
-
-Redux Toolkit
-
-Framer Motion
-
-Tailwind CSS
-
-next-themes
 
 🎨 UI/UX
 
@@ -77,10 +65,10 @@ Uso de framer-motion para transiciones suaves y experiencia interactiva.
 
 📌 Roadmap y Mejoras Futuras
 
-✅ Integración con Base de Datos (Firebase, Supabase, MongoDB).
-✅ Soporte para autenticación de usuarios.
-✅ Implementación de notificaciones y recordatorios.
-✅ Exportación e importación de tareas en formato JSON.
+📌 Integración con Base de Datos (Firebase, Supabase, MongoDB).
+📌 Soporte para autenticación de usuarios.
+📌 Implementación de notificaciones y recordatorios.
+📌 Exportación e importación de tareas en formato JSON.
 
 📜 Licencia
 
@@ -91,4 +79,3 @@ Este proyecto está bajo la MIT License - puedes utilizarlo y modificarlo librem
 ¡Las contribuciones son bienvenidas! Si quieres mejorar esta aplicación, abre un issue o un pull request en GitHub.
 
 🚀 Crea, organiza y completa tus tareas de manera eficiente con esta To-Do App optimizada!
-
