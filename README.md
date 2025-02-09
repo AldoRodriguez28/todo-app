@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📝 To-Do App - Aplicación Avanzada de Gestión de Tareas
 
-## Getting Started
+🚀 Descripción
 
-First, run the development server:
+Esta aplicación es una solución moderna de gestión de tareas, desarrollada con Next.js, React, y Redux Toolkit, ofreciendo una experiencia fluida, interactiva y eficiente. Permite a los usuarios agregar, actualizar, eliminar y reordenar tareas con persistencia en localStorage y soporte para modo oscuro.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🎯 Características Principales
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+✅ Redux Toolkit: Manejo eficiente del estado global de las tareas.
+✅ Modo Oscuro (Dark Mode): Persistencia automática del tema utilizando next-themes.
+✅ Drag & Drop: Implementado con framer-motion para reordenar tareas de manera intuitiva.
+✅ Framer Motion: Animaciones fluidas para una mejor experiencia de usuario.
+✅ Next.js & React: Arquitectura modular optimizada para SSR y CSR.
+✅ Persistencia de Datos: Almacena las tareas en localStorage para evitar la pérdida de información.
+✅ Optimización con useMemo y useCallback: Evita renders innecesarios y mejora el rendimiento.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🛠️ Tecnologías Utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Next.js 14
 
-## Learn More
+React 18
 
-To learn more about Next.js, take a look at the following resources:
+Redux Toolkit
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Framer Motion
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Tailwind CSS
 
-## Deploy on Vercel
+next-themes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🎨 UI/UX
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+La interfaz está diseñada con Tailwind CSS y Framer Motion, ofreciendo:
+
+Una experiencia visual moderna y atractiva.
+
+Soporte totalmente responsivo.
+
+Animaciones sutiles para mejorar la interacción del usuario.
+
+📦 Instalación y Uso
+
+🔧 Clonar el Repositorio
+
+ git clone https://github.com/tu-usuario/todo-app.git
+ cd todo-app
+
+📥 Instalar Dependencias
+
+ npm install
+
+🚀 Ejecutar la Aplicación
+
+ npm run dev
+
+Abre http://localhost:3000 en el navegador para ver la aplicación en ejecución.
+
+📌 Uso
+
+Agregar una tarea ingresando texto en el input y presionando Enter o Agregar.
+
+Marcar una tarea como completada activando el checkbox.
+
+Eliminar una tarea presionando el botón de ❌.
+
+Reordenar tareas arrastrándolas dentro de la lista.
+
+Cambiar entre modo claro y oscuro usando el toggle en la barra de navegación.
+
+🛡️ Buenas Prácticas y Optimización
+
+Uso de useMemo y useCallback para evitar renders innecesarios.
+
+Persistencia en localStorage sin duplicaciones ni errores al eliminar tareas.
+
+Uso de framer-motion para transiciones suaves y experiencia interactiva.
+
+📌 Roadmap y Mejoras Futuras
+
+✅ Integración con Base de Datos (Firebase, Supabase, MongoDB).
+✅ Soporte para autenticación de usuarios.
+✅ Implementación de notificaciones y recordatorios.
+✅ Exportación e importación de tareas en formato JSON.
+
+📜 Licencia
+
+Este proyecto está bajo la MIT License - puedes utilizarlo y modificarlo libremente.
+
+🤝 Contribuciones
+
+¡Las contribuciones son bienvenidas! Si quieres mejorar esta aplicación, abre un issue o un pull request en GitHub.
+
+🚀 Crea, organiza y completa tus tareas de manera eficiente con esta To-Do App optimizada!
+
